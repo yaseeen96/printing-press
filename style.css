@@ -1,0 +1,203 @@
+body{
+	background-color: #F9F7D9;
+	font-family: 'Montserrat';
+}
+
+hr{
+	border : 0.5px solid #FF762A;
+	margin-top: 10px;
+	width: 65%;
+}
+
+h1{
+	font-weight: 700;
+}
+.first-word{
+	color: #FF762A;
+}
+/*button*/
+.main-button {
+	box-shadow: 3px 3px 11px -7px black;
+	background-color:#FF762A;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#F9F7D9;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px black;
+}
+.main-button:hover {
+	background-color:black;
+}
+.main-button:active {
+	position:relative;
+	top:1px;
+}
+
+/*navbar*/
+
+nav .navbar-nav li a{
+  color: #f0cb87 !important;
+  font-weight: 700;
+  font-size: 1.2rem;
+  }
+
+.navbar-brand{
+	font-size: 1.3rem;
+}
+
+.navbar{
+	background-color: #84461a;
+}
+
+/*carousel*/
+.carousel-container{
+	width: 40%;
+	margin-left: 50%;
+	margin-bottom: 7%;
+	font-weight: 600;
+}
+
+.carousel-heading{
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+/*second carousel*/
+
+
+#cc2.carousel-container{
+	font-size: 2rem;
+	width: 50%;
+	margin-left: 40%;
+	margin-bottom: 17%;
+	font-weight: 600;
+	color: black;
+}
+
+#cc2.carousel-heading{
+	font-size: 3rem;
+	font-weight: 700;
+	color: #FF762A;
+}
+
+/*third carousel*/
+#cc3.carousel-container{
+	width: 75%;
+	margin-bottom: 25%;
+	margin-left: 23%;
+	color: #F9F7D9;
+}
+
+#cc3.carousel-heading{
+	color: black;
+	font-size: 3rem;
+}
+
+#cc3.main-button{
+	width: 50%;
+	font-size: 1.5rem;
+}
+
+/*mobile phone container*/
+
+@media(max-width: 771px){
+	    .carousel-container{
+			width: 60%;
+			font-size: 0.85rem;
+			font-weight: 600;
+			margin-bottom: 4%;
+		}
+
+		.carousel-heading{
+			font-size: 1.25rem;
+			font-weight: 700;
+		}
+
+		#cc2.carousel-container{
+			font-size: 1rem;
+			width: 60%;
+			margin-left: 25%;
+			margin-bottom: 4%;
+			font-weight: 600;
+			color: black;
+		}
+
+		#cc2.carousel-heading{
+			font-size: 1.5rem;
+			font-weight: 700;
+			color: #FF762A;
+		}
+
+		#cc3.carousel-container{
+			width: 75%;
+			margin-bottom: 10%;
+			margin-left: 20%;
+			font-size: 0.8rem;
+			color: #F9F7D9;
+		}
+
+		#cc3.carousel-heading{
+			color: black;
+			font-size: 2rem;
+		}
+		#cc3.main-button{
+			width: 50%;
+			font-size: 0.8rem;
+			text-align: center;
+			margin-left: 4%;
+		}
+}
+
+
+/*cards*/
+.card{
+	background-color: #F9F7D9;
+}
+.print-title{
+	color: #84461a;
+	font-weight: 600;
+	font-size: 1.6rem;
+}
+
+/*heading*/
+.heading{
+	background-color: #F9F7D9;
+	border-radius: 10px;
+	margin-top: 10px;
+	color: #84461a;
+	padding: 7px;
+}
+ 
+ h2#heading{
+    font-weight: 700;
+ }
+/*features*/
+.feature{
+	text-align: center;
+	padding: 20px 0;
+	border-radius: 10px;
+}
+
+/*icon*/
+i{
+   margin-bottom: 8px;
+}
+
+
+.about-us{
+	background-color: #84461a;
+	color: #F9F7D9;
+}
+
+/*footer*/
+.footer{
+	background-color: #FF762A;
+	color: #F9F7D9;
+	padding: 10px;
+	padding-top: 15px;
+}
